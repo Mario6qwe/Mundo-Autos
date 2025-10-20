@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Autos</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    
+    nav {
+      float: left;
+      width: 10%;
+      height: 300px;
+      background: #ccc;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+   
+    article {
+      float: left;
+      padding: 20px;
+      width: 90%;
+      background-color: #f1f1f1;
+      height: 300px;
+    }
+
+    /* Limpiar floats */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido al Mundo Autos</h1>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#AcercaDe">Acerca de</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <section id="Inicio">
+        <h2>INICIO</h2>
+        <p>Nos alegra tenerte aquí. En nuestra página encontrarás todo lo que necesitas sobre autos: desde los últimos modelos del mercado, reseñas detalladas, comparativas, noticias del mundo automotor, hasta las mejores ofertas en vehículos nuevos y usados.</p>
+        <p>¡Explora, compara y encuentra el auto perfecto para ti!</p>
+      </section>
+    </article>
+  </section>
+
+  <section>
+    <nav>
+      <!-- Espacio reutilizado solo para estructura -->
+    </nav>
+
+    <article>
+      <section id="AcercaDe">
+        <h2>ACERCA DE</h2>
+        <p>En Mundo Autos, compartimos una pasión: los autos. Nacimos con el objetivo de ofrecer un espacio confiable, actualizado y fácil de usar para todos los amantes del mundo automotor.</p>
+        <p>Información clara y precisa, comparativas imparciales, noticias del sector y asesoría personalizada.</p>
+        <p>Gracias por confiar en nosotros.</p>
+      </section>
+    </article>
+  </section>
+
+  <section>
+    <nav>
+      <!-- Espacio reutilizado solo para estructura -->
+    </nav>
+
+    <article>
+      <h2>Autos que Ofrecemos</h2>
+      <table border="1" width="100%">
+        <tr>
+          <th>Nombre Auto</th>
+          <th>Marca del Auto</th>
+          <th>Precio</th>
+          <th>Imagen</th>
+        </tr>
+        <tr>
+          <td>Camaro</td>
+          <td>Chevrolet</td>
+          <td>$75,000</td>
+          <td><img src="https://media.gq.com.mx/photos/647fbfc127429b28ca35ada7/4:3/w_2176,h_1632,c_limit/Chevrolet_Camaro_SS_Collectors_Edition.jpg" width="100"></td>
+        </tr>
+        <tr>
+          <td>Mustang GT 500 Shelby</td>
+          <td>Ford Performance</td>
+          <td>$85,000</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Urus</td>
+          <td>Lamborghini</td>
+          <td>$270,000</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>X6 Competition</td>
+          <td>BMW</td>
+          <td>$150,000</td>
+          <td><img src="https://www.stratstone.com/-/media/stratstone/bmw/new-cars/x6-m-competition/2023/bmw-x6-m-competition-driving-front-720x405px.ashx" width="100"></td>
+        </tr>
+        <tr>
+          <td>F-150 Raptor</td>
+          <td>Ford</td>
+          <td>$98,000</td>
+          <td>—</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  
+
+  <footer>
+    
+  <h2>CONTACTO</h2>
+  <p>Aguilar Mario<br>Tel: 0981674925</p>
+  <p><a href="mailto:maaguilar17@espe.edu.ec">Contáctanos</a></p>
+  <p>&copy; 2025 Mundo Autos</p>
+  <p>&copy; 2025 Mundo Autos</p>
+  </footer>
+
+</body>
+</html>
